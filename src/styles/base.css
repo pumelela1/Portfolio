@@ -1,0 +1,62 @@
+/* Shared basics only. Section-specific styles live in each section's folder. */
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  font-size: 16px;
+  color: var(--text);
+  background: var(--bg);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+a { color: var(--accent); text-underline-offset: 3px; }
+
+/* italic serif accent used inside headings: <em> */
+h1 em, h2 em, h3 em, .accent {
+  font-family: var(--font-accent);
+  font-style: italic;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.site-nav {
+  position: sticky; top: 0; z-index: 10;
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 14px 28px;
+  background: var(--bg);
+  border-bottom: 1px solid var(--line);
+}
+.site-nav b {
+  font-family: var(--font-accent); font-style: italic; font-weight: 400; font-size: 22px;
+}
+.site-nav a {
+  margin-left: 22px; text-decoration: none; color: var(--text);
+  font-family: var(--font-mono); font-size: 12px; text-transform: uppercase; letter-spacing: .1em;
+}
+.site-nav a:hover { text-decoration: underline; }
+
+/* Shared section frame */
+.section { max-width: 1040px; margin: 0 auto; padding: 72px 24px; border-bottom: 1px solid var(--line); }
+.section-label {
+  font-family: var(--font-mono); font-size: 12px; letter-spacing: .14em; text-transform: uppercase;
+  color: var(--text-soft); margin: 0 0 10px;
+}
+.section h2 {
+  margin: 0 0 28px;
+  font-family: var(--font-display);
+  font-weight: var(--display-weight);
+  letter-spacing: var(--display-tracking);
+  font-size: clamp(2.6rem, 6vw, 4.6rem);
+  line-height: 0.95;
+}
+.todo { display: inline-block; font-size: 13px; color: #a05a00; background: #fff6e5; border: 1px solid #f0d9a8; padding: 6px 10px; margin-top: 10px; }
+
+/* Dev-only font switcher */
+.font-switch {
+  position: fixed; left: 14px; bottom: 14px; z-index: 50;
+  background: #fff; border: 1px solid #ccc; padding: 8px 10px;
+  font: 12px/1.2 system-ui, sans-serif; color: #111;
+}
+.font-switch button { margin-left: 6px; cursor: pointer; font: inherit; padding: 3px 8px; }
+.font-switch button.on { background: #111; color: #fff; }

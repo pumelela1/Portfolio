@@ -1,0 +1,12 @@
+{
+  "_howTo": "Put certificate images in public/certificates/ and write the file name in \"image\". \"verify\" is an optional official verification link.",
+  "certificates": [
+    { "title": "Summer Analytics 2026: Data Science and Machine Learning", "issuer": "Consulting and Analytics Club, IIT Guwahati", "image": "", "verify": "" },
+    { "title": "Generative AI", "issuer": "MTN Skills Academy", "image": "", "verify": "" },
+    { "title": "AI for All", "issuer": "MTN Skills Academy", "image": "", "verify": "" },
+    { "title": "Boost Your Productivity with Microsoft Copilot", "issuer": "MTN Skills Academy", "image": "", "verify": "" },
+    { "title": "Building with Bob", "issuer": "IBM", "image": "", "verify": "" },
+    { "title": "Entelect Hackathon", "issuer": "Entelect", "image": "", "verify": "" },
+    { "title": "Cybersecurity Analyst Job Simulation", "issuer": "Tata Group · Forage", "image": "", "verify": "" }
+  ]
+}

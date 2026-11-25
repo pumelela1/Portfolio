@@ -1,0 +1,3 @@
+/* Contact styles only */
+.contact-links a, .contact-links span { margin-right: 16px; }
+.contact-empty { color: var(--line); }

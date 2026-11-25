@@ -1,0 +1,18 @@
+/* Hover inversions: things flip to dark background + light text on hover */
+.proj-card, .ama-q, .hero-replay, .contact-links a {
+  transition: background-color .25s ease, color .25s ease, border-color .25s ease;
+}
+
+.proj-card:hover { background: var(--text); color: var(--bg); border-color: var(--text); }
+.proj-card:hover .proj-meta,
+.proj-card:hover .proj-links a,
+.proj-card:hover .proj-links span,
+.proj-card:hover .proj-note { color: var(--bg); }
+.proj-card:hover .proj-img:not(.proj-img-empty) { filter: invert(1); }   /* black sketch becomes white */
+.proj-card:hover .proj-img-empty { background: transparent; border-color: var(--bg); color: var(--bg); }
+.proj-img { transition: filter .25s ease; }
+
+.ama-q:hover, .hero-replay:hover { background: var(--text); color: var(--bg); border-color: var(--text); }
+
+.contact-links a { text-decoration: none; border: 1px solid var(--text); padding: 6px 12px; display: inline-block; }
+.contact-links a:hover { background: var(--text); color: var(--bg); }

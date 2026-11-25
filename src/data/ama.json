@@ -1,0 +1,8 @@
+{
+  "_howTo": "Your Ask Me Anything questions and answers. Add, remove or reorder freely.",
+  "questions": [
+    { "q": "[Question 1]", "a": "[Your answer]" },
+    { "q": "[Question 2]", "a": "[Your answer]" },
+    { "q": "[Question 3]", "a": "[Your answer]" }
+  ]
+}

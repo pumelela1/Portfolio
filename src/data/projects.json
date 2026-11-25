@@ -1,0 +1,272 @@
+{
+  "_howTo": "To add a picture: put the file in public/images/projects/ and write its name in \"image\" (e.g. \"genesis.webp\"). Leave a link as \"\" if it doesn't exist yet. \"group\" is either \"coursework\" or \"offsyllabus\".",
+  "projects": [
+    {
+      "id": "soccer",
+      "group": "coursework",
+      "title": "Soccer Agent Challenge",
+      "meta": "Advanced Analysis of Algorithms · Python · individual",
+      "description": "An AI that controls a 5-a-side soccer team in real time. It finished 14th of 269 agents and qualified for the Innovation Day Cup.",
+      "what": "An AI controller for a 5-a-side soccer team. It gets the pitch 20 times a second and must decide every player's move within 20 ms.",
+      "how": "Predicts the ball's exact path, works out who reaches it first, then defends as a compact block or plans kicks.",
+      "result": "14th of 269 agents (Division 1). 894 wins, 143 draws, 79 losses (80% won). Qualified for the top-20 Innovation Day Cup.",
+      "image": "soccer.webp",
+      "imageAlt": "Cartoon robot footballers kicking a ball",
+      "links": {
+        "github": "https://github.com/pumelela1/soccer-agent-challenge",
+        "youtube": "",
+        "live": "",
+        "certificate": ""
+      },
+      "note": "repo is private"
+    },
+    {
+      "id": "short-order",
+      "group": "coursework",
+      "title": "Short Order: CPU Scheduler",
+      "meta": "Operating Systems · individual",
+      "description": "A CPU scheduler that runs a simulated restaurant kitchen. It scored 100% and beats every textbook scheduling algorithm.",
+      "what": "A CPU scheduler that runs a simulated restaurant kitchen. Cooks are CPU cores, orders are processes, the oven is I/O.",
+      "how": "Decides which order each cook works on within 50 ms, balancing customers served, response time, switching cost and fairness.",
+      "result": "100% for the assignment. Beats every textbook algorithm (FIFO, round robin, SJF, SRTF, MLFQ and more) and is level with the strongest reference scheduler.",
+      "image": "",
+      "imageAlt": "",
+      "links": {
+        "github": "https://github.com/pumelela1/short-order-scheduler",
+        "youtube": "",
+        "live": "",
+        "certificate": ""
+      }
+    },
+    {
+      "id": "arl",
+      "group": "coursework",
+      "title": "ARL Mission Console",
+      "meta": "Software Design · exam project · TypeScript, Next.js",
+      "description": "A control and alert dashboard for a research lab's telescope, weather station and water treatment. Built with 239 automated tests.",
+      "what": "A monitoring, control and alerting console for a research lab: a radio telescope array, weather monitoring and water treatment.",
+      "how": "MQTT data ingestion, SQLite storage, an alert system with an audit trail, verified commands with a safety gate for hazardous ones, and a replay system.",
+      "result": "All 4 phases complete, 239 automated tests.",
+      "image": "",
+      "imageAlt": "",
+      "links": {
+        "github": "",
+        "youtube": "",
+        "live": "",
+        "certificate": ""
+      },
+      "note": "GitHub private: exam work"
+    },
+    {
+      "id": "adamas2aurum",
+      "group": "coursework",
+      "title": "Adamas2Aurum",
+      "meta": "Software Design · team project (404 Found Us) · JavaScript",
+      "description": "A location-based campus game where Wits students answer trivia and battle with cards at real places on campus.",
+      "what": "A location-based campus trivia and card-battle game for Wits.",
+      "how": "Node.js + Express backend, MySQL, Google and email login, a Leaflet campus map, and WebSockets for live battles.",
+      "result": "[add your result]",
+      "image": "",
+      "imageAlt": "",
+      "links": {
+        "github": "https://github.com/pumelela1/Adamas2Aurum",
+        "docs": "https://github.com/pumelela1/Adamas2Aurum-Documentation",
+        "youtube": "",
+        "live": "",
+        "certificate": ""
+      },
+      "note": "main repo is private"
+    },
+    {
+      "id": "stokvel",
+      "group": "coursework",
+      "title": "Stokvel Management Platform",
+      "meta": "Software Design · team of 6 · JavaScript",
+      "description": "A web app that helps stokvel groups track contributions, payouts and savings together.",
+      "what": "A web app for stokvel groups to track contributions, see payout schedules and get insights into their savings.",
+      "how": "Node.js + Express, Prisma, Auth0 login, CI/CD with GitHub Actions. I worked on contribution tracking, authentication, documentation and UML.",
+      "result": "Deployed and live.",
+      "image": "",
+      "imageAlt": "",
+      "links": {
+        "github": "https://github.com/pumelela1/stokvel-management",
+        "youtube": "",
+        "live": "https://stokvel-management-cpox.vercel.app",
+        "certificate": ""
+      }
+    },
+    {
+      "id": "genesis",
+      "group": "coursework",
+      "title": "GENESIS: 3D Murder Mystery",
+      "meta": "Computer Graphics · team project · Three.js",
+      "description": "A 3D browser detective game across three levels: the crime scene, the forensic lab and a city chase (I built the chase).",
+      "what": "A 3D browser game. You investigate a professor's death across three levels: the office, the forensic lab, and a chase through the city of Genesis.",
+      "how": "Three.js with first-person controls, evidence collection tools and a UV torch. I built Level 3, the chase.",
+      "result": "[add your result]",
+      "image": "",
+      "imageAlt": "",
+      "links": {
+        "github": "https://github.com/pumelela1/GENESIS_3D_GAME",
+        "youtube": "",
+        "live": "",
+        "certificate": ""
+      },
+      "note": "live site to redeploy"
+    },
+    {
+      "id": "wearable-ml",
+      "group": "coursework",
+      "title": "Wearable Sensor Activity Classification",
+      "meta": "Machine Learning · team project · Python, Jupyter",
+      "description": "A machine learning model that recognises activities like walking or running from wearable sensor data. It scored 0.801 on Kaggle.",
+      "what": "Classify human activities from wearable sensor data (100 time steps × 14 sensor signals).",
+      "how": "My role was feature engineering and dimensionality reduction: statistical, temporal and FFT frequency features, and PCA.",
+      "result": "Best Kaggle leaderboard score of 0.801.",
+      "image": "",
+      "imageAlt": "",
+      "links": {
+        "github": "https://github.com/pumelela1/wearable-sensor-action-classification-ML-kaggle-project",
+        "youtube": "",
+        "live": "",
+        "certificate": ""
+      }
+    },
+    {
+      "id": "snake",
+      "group": "coursework",
+      "title": "Wits Snake AI",
+      "meta": "Java · AI agent",
+      "description": "An AI snake that uses A* search to find the safest path while competing against other snakes.",
+      "what": "An AI snake that competes against other snakes in a multiplayer game.",
+      "how": "A* search to find paths, re-planning as walls, obstacles and other snakes move.",
+      "result": "[add your result]",
+      "image": "",
+      "imageAlt": "",
+      "links": {
+        "github": "https://github.com/pumelela1/wits-snake-ai",
+        "youtube": "",
+        "live": "",
+        "certificate": ""
+      }
+    },
+    {
+      "id": "todo",
+      "group": "coursework",
+      "title": "Todo App",
+      "meta": "Software Design · lab · TypeScript, Next.js",
+      "description": "A simple todo app that runs fully on your own computer, built with Next.js and SQLite.",
+      "what": "A local-first todo app that runs fully on your machine.",
+      "how": "Next.js frontend and API, Prisma ORM, SQLite.",
+      "result": "",
+      "image": "",
+      "imageAlt": "",
+      "links": {
+        "github": "https://github.com/pumelela1/To-do-app",
+        "youtube": "",
+        "live": "",
+        "certificate": ""
+      }
+    },
+    {
+      "id": "racing",
+      "group": "offsyllabus",
+      "title": "AI Racing League (IBM Building with Bob)",
+      "meta": "IBM Building with Bob · individual · Python · TORCS simulator",
+      "description": "A self-driving race car that follows a planned racing line. It cut the lap time from 1:40 to 1:12.",
+      "what": "A self-driving race car controller for the Corkscrew track.",
+      "how": "Follows a pre-computed racing line and speed plan for every metre, controlling steering, brakes, throttle and gears.",
+      "result": "Lap time cut from 1:40.2 to 1:12.5 with zero damage, top speed 284 km/h.",
+      "image": "",
+      "imageAlt": "",
+      "links": {
+        "github": "https://github.com/pumelela1/IBM-build-with-bob-ai-racing-league-",
+        "youtube": "",
+        "live": "",
+        "certificate": ""
+      },
+      "certificates": [
+        "IBM: Building with Bob"
+      ]
+    },
+    {
+      "id": "rat",
+      "group": "offsyllabus",
+      "title": "RAT: Repo Analysis Tool",
+      "meta": "started in a Software Design test · TypeScript · upgrade coming",
+      "description": "Analyses any Git repository to show who changed what and which files are most likely to break, and explains it in plain English with AI.",
+      "what": "Upload a Git repository (zip or URL) and get file, folder and author metrics across its whole history.",
+      "how": "Reads the full git log, stores per-commit changes in SQLite, handles renames and merges correctly.",
+      "result": "[upgrade coming: risky-file prediction and charts (Summer Analytics 2026) + AI \"explain this repo\" (MTN Generative AI)]",
+      "image": "",
+      "imageAlt": "",
+      "links": {
+        "github": "https://github.com/pumelela1/SDP-Test",
+        "youtube": "",
+        "live": "",
+        "certificate": ""
+      },
+      "certificates": [
+        "Summer Analytics 2026: Data Science and Machine Learning (IIT Guwahati)",
+        "MTN Skills Academy: Generative AI"
+      ]
+    },
+    {
+      "id": "cyber-research",
+      "group": "offsyllabus",
+      "title": "Race Conditions as Security Holes",
+      "meta": "research report · Operating Systems + Tata Group Cybersecurity (Forage) · coming soon",
+      "description": "How bugs in locks and threads, where a program checks something and then uses it, let attackers break in, and how to prevent them.",
+      "what": "[the question the research answers]",
+      "how": "[sources, real examples, any small demo]",
+      "result": "[key findings]",
+      "image": "",
+      "imageAlt": "",
+      "certificates": [
+        "Tata Group Cybersecurity Analyst Job Simulation (Forage)"
+      ],
+      "links": {
+        "report": "",
+        "certificate": ""
+      }
+    },
+    {
+      "id": "entelect",
+      "group": "offsyllabus",
+      "title": "[Entelect Hackathon project]",
+      "meta": "Entelect Hackathon · 12 September 2026",
+      "description": "[short description]",
+      "what": "[what your team built]",
+      "how": "[tools / tech, your part]",
+      "result": "",
+      "image": "",
+      "imageAlt": "",
+      "links": {
+        "github": "",
+        "youtube": "",
+        "live": "",
+        "certificate": ""
+      },
+      "note": "code to find and commit"
+    },
+    {
+      "id": "hlehle",
+      "group": "offsyllabus",
+      "title": "Hlehle Cooks",
+      "meta": "personal · HTML, CSS, JavaScript",
+      "description": "A responsive website for a chef to show off their dishes.",
+      "what": "A website for a chef to show their cooking.",
+      "how": "Responsive layout and animations, deployed on Vercel.",
+      "result": "",
+      "image": "",
+      "imageAlt": "",
+      "links": {
+        "github": "",
+        "youtube": "",
+        "live": "",
+        "certificate": ""
+      },
+      "note": "GitHub private, add live link"
+    }
+  ]
+}

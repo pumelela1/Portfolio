@@ -1,0 +1,53 @@
+/* ============================================================
+   THEME: every colour and font for the whole site lives here.
+   Change these values and the whole site updates.
+   (Neutral placeholders for now. Real colours come later.)
+   ============================================================ */
+:root {
+  --bg: #ffffff;          /* page background */
+  --surface: #ffffff;     /* card background */
+  --text: #111111;        /* main text */
+  --text-soft: #666666;   /* secondary text */
+  --line: #d6d6d6;        /* borders */
+  --accent: #111111;      /* links / highlights */
+  --placeholder: #f2f2f2; /* empty image boxes */
+
+  /* 3D hero colours (read by the hero scene) */
+  --hero-bg: #f4f4f4;
+  --hero-suit: #9a9a9a;
+  --hero-panel: #555555;
+  --hero-detail: #222222;
+  --hero-glow: #ffffff;
+
+}
+
+/* ============================================================
+   FONTS: 3 combinations to try. Switch with the little "Fonts"
+   box (only visible in npm run dev), then keep the one you like
+   by setting data-font on <html> in index.html.
+   ============================================================ */
+:root,
+[data-font="bold"] {           /* A: Bold grotesk + elegant italic */
+  --font-display: "Bricolage Grotesque", system-ui, sans-serif;
+  --display-weight: 800;
+  --display-tracking: -0.035em;
+  --font-accent: "Instrument Serif", Georgia, serif;
+  --font-body: "Manrope", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+}
+[data-font="editorial"] {      /* B: Magazine / editorial */
+  --font-display: "Fraunces", Georgia, serif;
+  --display-weight: 600;
+  --display-tracking: -0.02em;
+  --font-accent: "Fraunces", Georgia, serif;
+  --font-body: "Manrope", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+}
+[data-font="wide"] {           /* C: Wide, quirky, techy */
+  --font-display: "Syne", system-ui, sans-serif;
+  --display-weight: 800;
+  --display-tracking: -0.01em;
+  --font-accent: "Instrument Serif", Georgia, serif;
+  --font-body: "Manrope", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Pumelela Mapukata",
+  "heroName": "PUMELELA MAPUKATA",
+  "heroLine": "Computer Science · University of the Witwatersrand",
+  "about": [
+    "BSc Computer Science and Computational Applications, University of the Witwatersrand. Graduating March 2027.",
+    "Interests: software engineering, AI, data and cybersecurity."
+  ],
+  "skills": {
+    "Languages": "Python, Java, JavaScript, TypeScript, C, C++, SQL",
+    "Web": "HTML, CSS, Next.js, Node.js, Express, REST APIs, WebSockets, Three.js",
+    "Data and ML": "feature engineering, PCA, FFT, Jupyter, Kaggle",
+    "Databases": "MySQL, SQLite, Azure SQL, Prisma",
+    "Tools": "Git, GitHub Actions, Docker, Vercel, Auth0",
+    "Ways of working": "Agile Scrum, team projects, automated testing"
+  },
+  "contact": {
+    "email": "pumelelamapukata06@gmail.com",
+    "github": "https://github.com/pumelela1",
+    "linkedin": "https://www.linkedin.com/in/pumelela-mapukata-75a562324/",
+    "cv": ""
+  },
+  "heroGreeting": "Hi, I'm"
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Preview: Ask me anything</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&family=Instrument+Serif:ital@0;1&family=Manrope:wght@400;500;700&family=JetBrains+Mono:wght@400;500&family=Syne:wght@600;800&family=Fraunces:ital,opsz,wght@0,9..144,600;1,9..144,400&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Open with: npm run dev, then go to /Portfolio/src/sections/ama/preview.html -->
+  <section id="ask"></section>
+  <script type="module">
+    import '../../styles/theme.css';
+    import '../../styles/base.css';
+    import '../../ui/grain.css';
+    import '../../ui/invert.css';
+    import { mountCursor } from '../../ui/cursor.js';
+    mountCursor();
+    import { mountAma } from './index.js';
+    mountAma(document.getElementById('ask'));
+  </script>
+</body>
+</html>
